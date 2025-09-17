@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello", "Hi", "Hey", "Good morning", "Good evening", "Hi there", "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Need any help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "Farewell"],
+      "responses": [
+        "Goodbye! Have a nice day!",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "I appreciate it"],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Do you know any jokes", "Funny story", "Cheer me up"
+      ],
+      "responses": [
+        "Why did the computer go to the doctor? Because it caught a virus!",
+        "I would tell you a joke about UDP, but you might not get it.",
+        "Why was the math book sad? Because it had too many problems."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["What can you do", "Help", "Features", "How can you help me"],
+      "responses": [
+        "I can tell you the weather, solve math problems, manage your tasks, tell jokes, and look things up on Wikipedia!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather", "Weather in", "Temperature at", "Forecast for",
+        "Will it rain", "Is it sunny", "Weather update", "How's the weather"
+      ],
+      "responses": ["Here’s the weather update:"]
+    },
+    {
+      "tag": "task_add",
+      "patterns": [
+        "Add task", "Remind me to", "Save this", "Remember to",
+        "I need to do", "Set a reminder", "Note this", "Create a task"
+      ],
+      "responses": ["Task added!", "Got it, task saved!"]
+    },
+    {
+      "tag": "task_show",
+      "patterns": [
+        "Show tasks", "What are my tasks", "List my reminders",
+        "Do I have any tasks", "Reminders list", "My tasks"
+      ],
+      "responses": ["Here are your tasks:"]
+    },
+    {
+      "tag": "calculator",
+      "patterns": [
+        "Calculate", "What is", "Solve", "Compute",
+        "Math problem", "Evaluate", "Do the math", "What's the result"
+      ],
+      "responses": ["Here’s the result:"]
+    },
+    {
+      "tag": "time_date",
+      "patterns": [
+        "What time is it", "Current time", "Tell me the time",
+        "Date today", "What day is it", "What's today's date"
+      ],
+      "responses": ["Let me check the time for you."]
+    },
+    {
+      "tag": "wiki_search",
+      "patterns": [
+        "Who is", "Tell me about", "What is", "Give info about",
+        "I want to know about", "Explain", "Describe", "Information on"
+      ],
+      "responses": ["Here’s what I found:", "According to Wikipedia:"]
+    }
+  ]
+}
